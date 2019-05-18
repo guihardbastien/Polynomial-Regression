@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Press+Start+2P|Roboto:300|VT323&display=swap');
+
+html {
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+    background-color: #343434;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    transform: translateY(50%);
+}
