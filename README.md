@@ -2,9 +2,9 @@
 
 ## Intro
 SGD optimization is used in supervised learning for large scale training on massive dataset that can be many directionnal.
-SGD is also being used a lot to determine a confidence based on an activation function 
+SGD is also being used to determine a confidence based on an activation function. 
 
-##What's this for ? 
+## What's this for ? 
 
 Given a 2 dimensionnal dataset we're trying to fit a polynomial function to this data.
 
@@ -14,7 +14,7 @@ Here's the function: `y = ax^3 + bx^2 + cx + d`
 
 Given an x input, we want to predict the correct y output.
 
-So we create a function with random a,b, c and d
+So we create a function with random a,b, c and d.
 
 Then, given the actual y output we can calculate the **error** between this function's result and the actual y output, using the mean squared error method :
 
